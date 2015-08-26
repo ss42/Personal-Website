@@ -7,7 +7,7 @@ body {
     height: 100%;
     width: 100%;
 }
-``
+
 body {
     .serif-font;
 }
@@ -352,4 +352,33 @@ body {
 }
 .text-faded.blacktext{
   color : white;
+}
+// Social Buttons
+
+ul.social-buttons {
+    margin-bottom: 0;
+    li {
+        a {
+            display: block;
+            background-color: #222;
+            height: 40px;
+            width: 40px;
+            border-radius: 100%;
+            font-size: 20px;
+            line-height: 40px;
+            color: white;
+            outline: none;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #fed136;
+            }
+        }
+    }
+}
+.addpadding{
+    padding: 65px 0;
 }
